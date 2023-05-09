@@ -1,0 +1,35 @@
+* { 
+    outline: red 1px dotted;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title-container {
+    height: 60vh;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-start;
+    padding: .5rem;
+    color: white;
+}
+
+.header-container {
+    height: 10vh;
+    width: 90vw;
+    color: white;
+}
+
+.header-paragraph {
+    line-height: 1.5;
+}
+
+.button-container {
+    padding: .5rem;
+    width: 90vw;
+    display: flex;
+    gap: .8rem;
+    align-items: center;  
+    flex-direction: column;
+    color: white;
+}
