@@ -9,6 +9,7 @@ section {
     display: flex;
     overflow: hidden;
     background-color: black;
+    height: 100vh;
 }
 
 .top-container { 
@@ -21,7 +22,7 @@ section {
 }
 
 .title-container {
-    height: 40vh;
+    height: 35vh;
     width: 90vw;
     display: flex;
     justify-content: flex-start;
@@ -54,5 +55,9 @@ h2 {
 }
 
 .footer-container { 
+    padding-bottom: 5px;
     height: 10vh;
+    color: white;
+    display: flex;
+    align-items: flex-end;
 }

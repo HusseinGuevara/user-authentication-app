@@ -1,31 +1,29 @@
 import Input from '@mui/joy/Input';
 import Button from '@mui/joy/Button';
-import Divider from '@mui/joy/Divider';
 import EmailIcon from '@mui/icons-material/Email';
 import KeyIcon from '@mui/icons-material/Key';
-import backgroundImg from './../../assets/images/harlem.jpg';
 import './../../assets/css/loginFormStyles.css';
 
 const LoginForm = () => {
     return(
         <section>
-            <div style={{ 
-                backgroundImage: `url(${backgroundImg})`,
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover'
-            }} className='login-header-container'>
-                <h2>Welcome Back</h2>
+            <div className='top-container'>
+
+            </div>
+            <div className='login-header-container'>
+                <h2>Welcome back User</h2>
             </div>
                 <div className='bottom-container'>
                     <div className='login-container'>
                         <Input color='info' startDecorator={< EmailIcon/>} placeholder='Email Address' fullWidth />       
                         <Input color='info' startDecorator={< KeyIcon/>} placeholder='Password' fullWidth />
+                        <a href='/' >Forgot password?</a>
                         <Button type='submit' variant='outlined' fullWidth > Log in </Button>
-                        <Divider orientation="horizontal">or</Divider>
-                        <Button type='submit' variant='outlined' fullWidth > Sign up </Button>
                     </div> 
                 </div>    
+                <footer className='footer-container'>
+                <p> © 2023 BioTech Inc.</p>
+            </footer>
         </section>    
     );
 };

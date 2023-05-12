@@ -24,7 +24,7 @@ const Home = () => {
                 <Button type='submit' variant='outlined' fullWidth > Sign up </Button>
             </div>
             <footer className='footer-container'>
-
+                <p> © 2023 BioTech Inc.</p>
             </footer>
         </section>
     )
