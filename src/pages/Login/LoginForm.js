@@ -22,8 +22,8 @@ const LoginForm = () => {
                     </div> 
                 </div>    
                 <footer className='footer-container'>
-                <p> © 2023 BioTech Inc.</p>
-            </footer>
+                    <p> © 2023 Quantum AI Inc.</p>
+                </footer>
         </section>    
     );
 };

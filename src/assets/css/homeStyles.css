@@ -2,7 +2,7 @@
     /* outline: red 1px dotted; */
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 section {
@@ -14,7 +14,7 @@ section {
 
 .top-container { 
     height: 25vh;
-    background-color: rgba(135, 12, 230, 0.912);
+    background-color: #103F56;
     width: 200%;
     transform: rotate(348deg);
     left: -45%;
@@ -25,13 +25,20 @@ section {
     height: 35vh;
     width: 90vw;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    padding: .5rem;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 
+.title-container img {
+    width: 140px;
+    height: 140px;
+}
+
 h2 {
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 .header-container {
@@ -51,7 +58,7 @@ h2 {
     gap: .8rem;
     align-items: center;  
     flex-direction: column;
-    color: rgba(135, 12, 230, 0.912);
+    color: #BFE0F2;
 }
 
 .footer-container { 
