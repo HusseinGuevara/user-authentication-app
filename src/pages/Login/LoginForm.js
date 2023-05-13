@@ -7,18 +7,17 @@ import './../../assets/css/loginFormStyles.css';
 const LoginForm = () => {
     return(
         <section>
-            <div className='top-container'>
-
-            </div>
+            <div className='top-container'></div>
             <div className='login-header-container'>
-                <h2>Welcome back User</h2>
+                <h2>Log in</h2>
             </div>
                 <div className='bottom-container'>
                     <div className='login-container'>
-                        <Input color='info' startDecorator={< EmailIcon/>} placeholder='Email Address' fullWidth />       
-                        <Input color='info' startDecorator={< KeyIcon/>} placeholder='Password' fullWidth />
-                        <a href='/' >Forgot password?</a>
+                        <Input  startDecorator={< EmailIcon/>} placeholder='Email Address' fullWidth />       
+                        <Input  startDecorator={< KeyIcon/>} placeholder='Password' fullWidth />
                         <Button type='submit' variant='outlined' fullWidth > Log in </Button>
+                        <a href='/' >Forgot password?</a>
+                        <p>Don't have an account? <a href='/' >Sign up</a></p>
                     </div> 
                 </div>    
                 <footer className='footer-container'>

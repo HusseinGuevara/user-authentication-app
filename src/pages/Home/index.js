@@ -8,11 +8,11 @@ import Divider from '@mui/joy/Divider';
 const Home = () => {
     return (
         <section>
-            <div className='top-container'>
-            </div>
+            <div className='top-container'></div>
             <div className='title-container'>
                 <img src={Quantum} alt='Logo'/>
                 <h2>QUANTUM AI</h2>
+                <p>Leading the way to Quantum Computing and Artificial Intelligence integration.</p>
             </div>
             <div className='header-container'>
               

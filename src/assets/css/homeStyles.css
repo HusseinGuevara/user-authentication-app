@@ -1,5 +1,4 @@
 * { 
-    /* outline: red 1px dotted; */
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
@@ -39,6 +38,11 @@ section {
 
 h2 {
     font-size: 3em;
+}
+
+.title-container p {
+    text-align: center;
+    line-height: 1.5em;
 }
 
 .header-container {
