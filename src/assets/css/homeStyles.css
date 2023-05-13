@@ -61,6 +61,17 @@ h2 {
     color: #BFE0F2;
 }
 
+.button-container a {
+    border:#BFE0F2;
+    border-style: solid;
+    width: 70vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
 .footer-container { 
     padding-bottom: 5px;
     height: 10vh;
