@@ -20,7 +20,7 @@ const Home = () => {
             <div className='button-container'>
                 <a href='/login' >Log in</a>
                 <Divider orientation="horizontal">or</Divider>
-                <a href='/' >Sign up</a>
+                <a href='/signup' >Sign up</a>
             </div>
             <footer className='footer-container'>
                 <p> © 2023 Quantum AI Inc.</p>
